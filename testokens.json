@@ -1,0 +1,73 @@
+{
+  "A-Base/Style": {
+    "color": {
+      "Green": {
+        "value": "#77d504",
+        "type": "color"
+      },
+      "Red": {
+        "value": "#d91f1f",
+        "type": "color"
+      },
+      "Blue": {
+        "value": "#1572dd",
+        "type": "color"
+      },
+      "Gray": {
+        "value": "#f7fbff",
+        "type": "color"
+      },
+      "White": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Black": {
+        "value": "#04264e",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "lg": {
+        "value": "32px",
+        "type": "dimension"
+      },
+      "md": {
+        "value": "16px",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "8px",
+        "type": "dimension"
+      },
+      "XL": {
+        "value": "64px",
+        "type": "dimension"
+      },
+      "xs": {
+        "value": "4px",
+        "type": "dimension"
+      }
+    }
+  },
+  "B-Semantic/Mode 1": {
+    "background-primary": {
+      "value": "{color.Gray}",
+      "type": "color"
+    }
+  },
+  "C-Component/Mode 1": {
+    "bg-default": {
+      "value": "{background-primary}",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "A-Base/Style",
+      "B-Semantic/Mode 1",
+      "C-Component/Mode 1"
+    ]
+  }
+}
